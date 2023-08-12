@@ -1,8 +1,8 @@
 # Overview
 
 ```
-docker pull gurobi/optimizer
+docker pull gurobi/python
 ```
 ```
-docker run -it -d -v $(pwd):/home gurobi/optimizer
+docker run -it -d -v $(pwd):/home gurobi/python
 ```
