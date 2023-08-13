@@ -8,4 +8,5 @@ docker run -it -d -v $(pwd):/root gurobi/python
 docker pull --platform=linux/amd64 gurobi/python
 ```
 [https://hub.docker.com/r/gurobi/python](https://hub.docker.com/r/gurobi/python) (vscode ver_1.18.0)\
-[https://phoenixnap.com/kb/how-to-commit-changes-to-docker-image](https://phoenixnap.com/kb/how-to-commit-changes-to-docker-image)
+[https://phoenixnap.com/kb/how-to-commit-changes-to-docker-image](https://phoenixnap.com/kb/how-to-commit-changes-to-docker-image)\
+(After installing docker desktop, don't move its directory, or it'll fail to be recongnized)
